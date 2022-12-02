@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "unitcode": "meditus",
+  "message": "error",
+  "response": {
+    "version": "string",
+    "mis_code": "MIS_BARS",
+    "outerdirections": [
+      {
+        "id": 1234,
+        "patient_id": 123456,
+        "lpu": 1233,
+        "d_numb": "12-1232",
+        "service": "Приём терапевта",
+        "status": "оказан",
+        "reason": "доп обследование",
+        "represent_lpu": "26202 - \"Городская поликлиника\"",
+        "represent_lpu_handle": "26202 - \"Городская поликлиника\"",
+        "diagnosis_mkb": 1234,
+        "diagnosis_handle": "действительно болеет",
+        "date": "2022-01-12",
+        "represent_doctor_fio": "Петров Пётр Петрович",
+        "doctor_handle": "Петров П.П.",
+        "hosp_date": "2022-01-12",
+        "date_end": "2022-01-12",
+        "to_doctor": "Петров Пётр Петрович (врач терапевт)",
+        "visit": 1234,
+        "count_docs": 1
+      }
+    ]
+  }
+}
