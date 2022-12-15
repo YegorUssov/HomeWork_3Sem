@@ -30,7 +30,7 @@ insert into library values (1, null, 'Россия', null),
 ;
 
 
-select id, pid, title, author, year_of_creation, level,
+select id, pid, title, year_of_creation, level,
        CONNECT_BY_ISLEAF as IsLeaf,
     prior title as Parent,
     CONNECT_BY_ROOT title as Root
